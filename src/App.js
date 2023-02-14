@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import Navigation from "./Navigation";
+import CampaginsDetailsEntry from "./CampaginsDetailsEntry";
+import { Route, Routes } from "react-router-dom"
+import CampaginsDataReport from "./CampaginsDataReport";
+import CampaginsDisplayingPage from "./CampaginsDisplayingpage";
+function App()
+{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navigation />
+      <div className="container">
+      <Routes>
+        
+            <Route path="/adding" element={<CampaginsDetailsEntry />}></Route>
+            <Route path="/displaying" element={<CampaginsDisplayingPage />}></Route>
+          <Route path="/finaldata" element={<CampaginsDataReport/>}></Route>  
+      </Routes>
+      </div>
     </div>
-  );
+  )
 }
-
 export default App;
