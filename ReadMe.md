@@ -1,21 +1,21 @@
  **CampaignManagementSystem**<br/>
   **Introduction:**
-•	Planning, carrying out, monitoring, and analyzing a marketing initiative are all parts of campaign management. This could be a marketing campaign for the introduction of a new product or an event, but it also might just be a small promotion. 
-•	The main aim is to capture the status of each campaign that desired views are achieved with in the specified start and end date of campaign.
+•	Planning, carrying out, monitoring, and analyzing a marketing initiative are all parts of campaign management. This could be a marketing campaign for the introduction of a new product or an event, but it also might just be a small promotion. <br/>
+•	The main aim is to capture the status of each campaign that desired views are achieved with in the specified start and end date of campaign.<br/>
 
 **Application Design:**
 
 Project design these are the following technologies that are been used :
-•	Front End Technology: ReactJS is been used for front end view (web page view)
-•	Back End Technology: Spring Boot is used for handling all the business Logic
-•	Database: MYSQL is the database used for storing the data.
+•	Front End Technology: ReactJS is been used for front end view (web page view)<br/>
+•	Back End Technology: Spring Boot is used for handling all the business Logic<br/>
+•	Database: MYSQL is the database used for storing the data.<br/>
 
 **Front End Technology:**
 
-•	Using ReactJS the Front-end part of the application is handled. The several components like campaign entries page, campaigns displaying page, campaign final report page  are used in the application.
-•	In the following project  we are considering the following parameters like campaign name, campaign category , campaign URL, campaign start date, campaign end date, number of desired views of that particular campaign in the campaign entry page.
-•	In the campaign display page, all the campaigns available are randomly displayed the each campaign is been displayed with the specified start date & end date as specified during the campaign entry.
-•	It also shows you the data like current time, current date of campaign generation  in the same page where the campaigns are displayed.
+•	Using ReactJS the Front-end part of the application is handled. The several components like campaign entries page, campaigns displaying page, campaign final report page  are used in the application.<br/>
+•	In the following project  we are considering the following parameters like campaign name, campaign category , campaign URL, campaign start date, campaign end date, number of desired views of that particular campaign in the campaign entry page.<br/>
+•	In the campaign display page, all the campaigns available are randomly displayed the each campaign is been displayed with the specified start date & end date as specified during the campaign entry.<br/>
+•	It also shows you the data like current time, current date of campaign generation  in the same page where the campaigns are displayed.<br/>
 
 **Back End Technology:**
 
